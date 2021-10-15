@@ -1,0 +1,119 @@
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.003  000.003: --- NVIM STARTING ---
+000.183  000.181: locale set
+000.404  000.221: inits 1
+000.412  000.007: window checked
+003.104  002.693: parsing arguments
+003.143  000.039: expanding arguments
+003.159  000.016: inits 2
+003.524  000.365: init highlight
+003.525  000.001: waiting for UI
+004.143  000.618: done waiting for UI
+004.167  000.025: init screen for UI
+004.185  000.017: init default mappings
+004.206  000.021: init default autocommands
+037.953  004.751  004.751: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/Catppuccino.nvim/colors/catppuccino.vim
+038.667  034.445  029.694: sourcing /home/uzaaft/.local/share/lunarvim/lvim/init.lua
+038.673  000.022: sourcing vimrc file(s)
+046.402  000.022  000.022: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/elixir.vim
+046.437  000.013  000.013: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/fish.vim
+046.461  000.012  000.012: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdresource.vim
+046.479  000.007  000.007: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/gdscript.vim
+046.499  000.010  000.010: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/gomod.vim
+046.672  000.164  000.164: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/graphql.vim
+046.709  000.018  000.018: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/hcl.vim
+046.729  000.009  000.009: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/heex.vim
+046.749  000.009  000.009: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/json5.vim
+046.769  000.010  000.010: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/julia.vim
+046.809  000.028  000.028: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/ledger.vim
+046.830  000.009  000.009: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/nix.vim
+046.851  000.010  000.010: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/ql.vim
+046.880  000.018  000.018: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/query.vim
+046.900  000.008  000.008: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/surface.vim
+046.920  000.009  000.009: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/teal.vim
+046.938  000.008  000.008: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/tlaplus.vim
+046.956  000.008  000.008: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/yang.vim
+046.974  000.008  000.008: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/ftdetect/zig.vim
+047.832  000.028  000.028: sourcing /home/uzaaft/.local/share/lunarvim/lvim/ftdetect/bicep.lua
+047.861  000.018  000.018: sourcing /home/uzaaft/.local/share/lunarvim/lvim/ftdetect/fish.lua
+047.888  000.016  000.016: sourcing /home/uzaaft/.local/share/lunarvim/lvim/ftdetect/json.lua
+047.912  000.015  000.015: sourcing /home/uzaaft/.local/share/lunarvim/lvim/ftdetect/julia.lua
+047.937  000.014  000.014: sourcing /home/uzaaft/.local/share/lunarvim/lvim/ftdetect/nix.lua
+047.964  000.018  000.018: sourcing /home/uzaaft/.local/share/lunarvim/lvim/ftdetect/plaintex.lua
+047.993  000.019  000.019: sourcing /home/uzaaft/.local/share/lunarvim/lvim/ftdetect/zig.lua
+048.153  000.026  000.026: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/autoload/nvim_treesitter.vim
+048.234  009.411  008.880: sourcing /usr/share/nvim/runtime/filetype.vim
+048.474  000.030  000.030: sourcing /usr/share/nvim/runtime/ftplugin.vim
+048.673  000.025  000.025: sourcing /usr/share/nvim/runtime/indent.vim
+048.959  000.072  000.072: sourcing /usr/share/nvim/runtime/syntax/synload.vim
+049.027  000.306  000.234: sourcing /usr/share/nvim/runtime/syntax/syntax.vim
+049.888  000.082  000.082: sourcing /usr/share/nvim/runtime/plugin/diagnostic.vim
+050.161  000.262  000.262: sourcing /usr/share/nvim/runtime/plugin/gzip.vim
+050.181  000.008  000.008: sourcing /usr/share/nvim/runtime/plugin/health.vim
+050.289  000.097  000.097: sourcing /usr/share/nvim/runtime/plugin/man.vim
+050.718  000.201  000.201: sourcing /usr/share/nvim/runtime/pack/dist/opt/matchit/plugin/matchit.vim
+050.799  000.499  000.298: sourcing /usr/share/nvim/runtime/plugin/matchit.vim
+050.932  000.123  000.123: sourcing /usr/share/nvim/runtime/plugin/matchparen.vim
+051.330  000.384  000.384: sourcing /usr/share/nvim/runtime/plugin/netrwPlugin.vim
+051.475  000.008  000.008: sourcing /home/uzaaft/.local/share/nvim/rplugin.vim
+051.480  000.131  000.122: sourcing /usr/share/nvim/runtime/plugin/rplugin.vim
+051.576  000.084  000.084: sourcing /usr/share/nvim/runtime/plugin/shada.vim
+051.621  000.020  000.020: sourcing /usr/share/nvim/runtime/plugin/spellfile.vim
+051.769  000.127  000.127: sourcing /usr/share/nvim/runtime/plugin/tarPlugin.vim
+051.861  000.074  000.074: sourcing /usr/share/nvim/runtime/plugin/tohtml.vim
+051.891  000.015  000.015: sourcing /usr/share/nvim/runtime/plugin/tutor.vim
+052.070  000.164  000.164: sourcing /usr/share/nvim/runtime/plugin/zipPlugin.vim
+053.086  000.134  000.134: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/vim-easy-align/plugin/easy_align.vim
+097.266  045.127  044.992: sourcing /home/uzaaft/.config/lvim/plugin/packer_compiled.lua
+097.600  001.960: loading rtp plugins
+097.996  000.052  000.052: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/Catppuccino.nvim/plugin/cpcmds.vim
+098.203  000.123  000.123: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/FixCursorHold.nvim/plugin/fix_cursorhold_nvim.vim
+098.499  000.216  000.216: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/LuaSnip/plugin/luasnip.vim
+099.249  000.542  000.542: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/fzf/plugin/fzf.vim
+099.372  000.032  000.032: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/fzf-lua/plugin/fzf-lua.vim
+099.544  000.091  000.091: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/hop/plugin/hop.vim
+099.713  000.044  000.044: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nlsp-settings.nvim/plugin/nlspsetting.vim
+099.931  000.098  000.098: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-cmp/plugin/cmp.lua
+100.023  000.036  000.036: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-colorizer.lua/plugin/colorizer.vim
+100.120  000.011  000.011: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-fzf/plugin/nvim_fzf.vim
+100.287  000.095  000.095: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-lsp-installer/plugin/nvim-lsp-installer.vim
+100.451  000.080  000.080: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-lspconfig/plugin/lspconfig.vim
+100.797  000.228  000.228: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-tree.lua/plugin/nvim-tree-startup.lua
+101.535  000.663  000.663: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter/plugin/nvim-treesitter.vim
+102.140  000.511  000.511: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-treesitter-textobjects/plugin/nvim-treesitter-textobjects.vim
+102.262  000.031  000.031: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/nvim-web-devicons/plugin/nvim-web-devicons.vim
+102.394  000.033  000.033: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/plenary.nvim/plugin/plenary.vim
+102.526  000.029  000.029: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/popfix/plugin/popfix.vim
+102.810  000.144  000.144: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/telescope.nvim/plugin/telescope.vim
+103.038  000.146  000.146: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/vim-commentary/plugin/commentary.vim
+103.300  002.496: loading packages
+104.962  000.118  000.118: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/cmp-buffer/after/plugin/cmp_buffer.lua
+105.156  000.137  000.137: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/cmp-nvim-lsp/after/plugin/cmp_nvim_lsp.lua
+105.346  000.135  000.135: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/cmp-nvim-lua/after/plugin/cmp_nvim_lua.lua
+105.533  000.129  000.129: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/cmp-path/after/plugin/cmp_path.lua
+105.730  000.135  000.135: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/start/cmp_luasnip/after/plugin/cmp_luasnip.lua
+105.755  001.800: loading after plugins
+105.766  000.011: inits 3
+107.101  001.335: reading ShaDa
+108.894  000.486  000.486: sourcing /usr/share/nvim/runtime/scripts.vim
+125.706  000.052  000.052: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/nvim-bqf/plugin/bqf.vim
+135.067  000.053  000.053: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/toggleterm.nvim/plugin/toggleterm.vim
+138.087  000.053  000.053: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/barbar.nvim/autoload/bufferline/highlight.vim
+141.095  005.370  005.316: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/barbar.nvim/plugin/bufferline.vim
+141.343  000.022  000.022: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/which-key.nvim/plugin/which-key.vim
+142.007  028.922: opening buffers
+142.867  000.309  000.309: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/quick-scope/plugin/quick_scope.vim
+144.902  000.168  000.168: sourcing /home/uzaaft/.local/share/lunarvim/site/pack/packer/opt/quick-scope/autoload/quick_scope.vim
+145.187  002.703: BufEnter autocommands
+145.191  000.004: editing files in windows
+163.682  018.491: VimEnter autocommands
+163.688  000.006: UIEnter autocommands
+164.194  000.246  000.246: sourcing /usr/share/nvim/runtime/autoload/provider/clipboard.vim
+164.202  000.267: before starting main loop
+182.766  018.564: first screen update
+182.771  000.005: --- NVIM STARTED ---
