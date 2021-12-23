@@ -19,6 +19,5 @@ set -gx COLORTERM "truecolor"
 
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
-eval /opt/miniconda3/bin/conda "shell.fish" "hook" $argv | source
+eval /usr/local/Caskroom/miniconda/base/bin/conda "shell.fish" "hook" $argv | source
 # <<< conda initialize <<<
-conda deactivate

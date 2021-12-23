@@ -7,5 +7,3 @@ set -gx PATH $ANDROID_HOME/emulator $PATH
 set -gx PATH $ANDROID_HOME/tools $PATH
 set -gx PATH $ANDROID_HOME/tools/bin $PATH
 set -gx PATH $ANDROID_HOME/platform-tools $PATH
-set -gx LUNARVIM_CONFIG_DIR /home/uzaaft/.config/lvim
-set -gx LUNARVIM_RUNTIME_DIR /home/uzaaft/.local/share/lunarvim

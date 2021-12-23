@@ -4,6 +4,7 @@ abbr -a e lvim
 abbr -a pr 'gh pr create -t (git show -s --format=%s HEAD) -b (git show -s --format=%B HEAD | tail -n+3)'
 abbr -a vi "lvim"
 abbr -a pa "ls | xargs -P10 -I{} git -C {} pull"
+abbr -a clc "clear"
 if command -v exa > /dev/null
 	abbr -a l 'exa'
 	abbr -a ls 'exa'
@@ -42,4 +43,12 @@ end
 
 if command -v paru > /dev/null
   abbr -a yeet "paru -Rsc"
+end
+
+if command -v bat > /dev/null
+  abbr -a cat "bat"
+end
+
+if command -v pnpm > /dev/null
+  abbr -a npm "pnpm"
 end
