@@ -6,11 +6,11 @@ abbr -a vi "lvim"
 abbr -a pa "ls | xargs -P10 -I{} git -C {} pull"
 abbr -a clc "clear"
 if command -v exa > /dev/null
-	abbr -a l 'exa'
-	abbr -a ls 'exa'
-	abbr -a ll 'exa -l'
-	abbr -a lll 'exa -la'
-  abbr -a lt "exa -l --tree -L 2"
+	abbr -a l 'exa -a --icons --color=always -s type -F '
+	abbr -a ls 'exa -a --icons --color=always -s type -F'
+	abbr -a ll 'exa -l --icons --color=always -s type -F'
+	abbr -a lll 'exa -la --icons --color=always -s type -F'
+  abbr -a lt "exa -l --tree -L 2 --icons --color=always -s type -F"
 else
 	abbr -a l 'ls'
 	abbr -a ll 'ls -l'
@@ -51,4 +51,6 @@ end
 
 if command -v pnpm > /dev/null
   abbr -a npm "pnpm"
+  abbr -a npx "pnpx"
 end
+
